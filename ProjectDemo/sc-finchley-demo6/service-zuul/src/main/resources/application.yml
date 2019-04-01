@@ -1,0 +1,28 @@
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/
+
+server:
+  port: 8769
+spring:
+  application:
+    name: service-zuul
+
+# 路由配置方式一
+zuul:
+  routes:
+    api-a:  # 路由名称，可以随便定义，但是path和serviceId需要一一对应
+      path: /api-a/**     # 拦截的请求格式
+      serviceId: service-ribbon  # 注册Eureka上的服务名——拦截后转发的地址
+    api-b:
+      path: /api-b/**
+      serviceId: service-feign
+
+# 路由配置方式二
+#zuul:
+#  routes:
+#    api-a: /service-ribbon/** #所有请求api-a的请求，都会被拦截，并且转发到service-ribbon上
+
+ribbon:
+  NFLoadBalancerRuleClassName: com.netflix.loadbalancer.RoundRobinRule # 配置服务端负载均衡策略（不写默认也可）

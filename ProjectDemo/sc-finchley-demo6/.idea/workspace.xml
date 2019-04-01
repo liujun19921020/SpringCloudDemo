@@ -137,37 +137,38 @@
       <usages-collector id="statistics.lifecycle.project">
         <counts>
           <entry key="project.closed" value="1" />
-          <entry key="project.open.time.2" value="1" />
+          <entry key="project.open.time.18" value="1" />
+          <entry key="project.open.time.2" value="2" />
           <entry key="project.open.time.3" value="1" />
-          <entry key="project.opened" value="2" />
+          <entry key="project.opened" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="7" />
+          <entry key="java" value="11" />
           <entry key="xml" value="10" />
           <entry key="yml" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="7" />
+          <entry key="JAVA" value="11" />
           <entry key="XML" value="10" />
           <entry key="YAML" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="52" />
+          <entry key="java" value="197" />
           <entry key="xml" value="11" />
-          <entry key="yml" value="67" />
+          <entry key="yml" value="80" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="52" />
+          <entry key="JAVA" value="197" />
           <entry key="XML" value="11" />
-          <entry key="YAML" value="67" />
+          <entry key="YAML" value="80" />
         </counts>
       </usages-collector>
     </session>
@@ -175,18 +176,9 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="304">
-              <caret line="16" column="28" selection-start-line="16" selection-start-column="28" selection-end-line="16" selection-end-column="28" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/service-zuul/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
+            <state>
               <caret line="17" selection-start-line="17" selection-end-line="17" />
             </state>
           </provider>
@@ -213,8 +205,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/service-zuul/src/main/java/com/liujun/servicezuul/ServiceZuulApplication.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="152">
-              <caret line="11" column="36" selection-start-line="11" selection-start-column="36" selection-end-line="11" selection-end-column="36" />
+            <state relative-caret-position="342">
+              <caret line="25" column="7" lean-forward="true" selection-start-line="25" selection-start-column="7" selection-end-line="25" selection-end-column="7" />
             </state>
           </provider>
         </entry>
@@ -223,22 +215,25 @@
         <entry file="file://$PROJECT_DIR$/service-zuul/src/main/resources/application.yml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="513">
-              <caret line="27" column="73" selection-start-line="27" selection-start-column="73" selection-end-line="27" selection-end-column="73" />
+              <caret line="27" column="91" selection-start-line="27" selection-start-column="91" selection-end-line="27" selection-end-column="91" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/service-zuul/src/main/java/com/liujun/servicezuul/filter/TokenFilter.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="779">
+              <caret line="53" column="1" selection-start-line="53" selection-start-column="1" selection-end-line="53" selection-end-column="1" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/service-zuul/src/main/java/com/liujun/servicezuul/filter/TokenFilter.java">
+        <entry file="file://$PROJECT_DIR$/service-zuul/src/main/java/com/liujun/servicezuul/filter/NameFilter.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="760">
-              <caret line="48" column="26" selection-start-line="48" selection-start-column="26" selection-end-line="48" selection-end-column="26" />
-              <folding>
-                <element signature="e#460#461#0" expanded="true" />
-                <element signature="e#513#514#0" expanded="true" />
-                <element signature="e#559#560#0" expanded="true" />
-                <element signature="e#601#602#0" expanded="true" />
-              </folding>
+              <caret line="49" lean-forward="true" selection-start-line="49" selection-end-line="49" />
             </state>
           </provider>
         </entry>
@@ -252,11 +247,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/service-ribbon/src/main/java/com/liujun/serviceribbon/service/HelloService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="399">
-              <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+            <state relative-caret-position="342">
+              <caret line="21" selection-start-line="21" selection-end-line="21" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -300,12 +295,13 @@
         <option value="$PROJECT_DIR$/service-feign/pom.xml" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/service-zuul/pom.xml" />
-        <option value="$PROJECT_DIR$/service-zuul/src/main/java/com/liujun/servicezuul/ServiceZuulApplication.java" />
-        <option value="$PROJECT_DIR$/service-zuul/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/service-zuul/src/main/java/com/liujun/servicezuul/filter/MyFilter.java" />
-        <option value="$PROJECT_DIR$/service-zuul/src/main/java/com/liujun/servicezuul/filter/TokenFilter.java" />
         <option value="$PROJECT_DIR$/service-zuul/src/main/java/com/liujun/servicezuul/filter/UserNameFilter.java" />
         <option value="$PROJECT_DIR$/service-ribbon/src/main/java/com/liujun/serviceribbon/service/HelloService.java" />
+        <option value="$PROJECT_DIR$/service-zuul/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/service-zuul/src/main/java/com/liujun/servicezuul/ServiceZuulApplication.java" />
+        <option value="$PROJECT_DIR$/service-zuul/src/main/java/com/liujun/servicezuul/filter/NameFilter.java" />
+        <option value="$PROJECT_DIR$/service-zuul/src/main/java/com/liujun/servicezuul/filter/TokenFilter.java" />
       </list>
     </option>
   </component>
@@ -334,102 +330,13 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="sc-finchley-demo6" type="b2602c69:ProjectViewProjectNode" />
               <item name="sc-finchley-demo6" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="sc-finchley-demo6" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sc-finchley-demo6" type="462c0819:PsiDirectoryNode" />
-              <item name="service-feign" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="sc-finchley-demo6" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sc-finchley-demo6" type="462c0819:PsiDirectoryNode" />
-              <item name="service-feign" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="sc-finchley-demo6" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sc-finchley-demo6" type="462c0819:PsiDirectoryNode" />
-              <item name="service-feign" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="sc-finchley-demo6" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sc-finchley-demo6" type="462c0819:PsiDirectoryNode" />
-              <item name="service-feign" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="sc-finchley-demo6" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sc-finchley-demo6" type="462c0819:PsiDirectoryNode" />
-              <item name="service-feign" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="servicefeign" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="sc-finchley-demo6" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sc-finchley-demo6" type="462c0819:PsiDirectoryNode" />
-              <item name="service-ribbon" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="sc-finchley-demo6" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sc-finchley-demo6" type="462c0819:PsiDirectoryNode" />
-              <item name="service-ribbon" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="sc-finchley-demo6" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sc-finchley-demo6" type="462c0819:PsiDirectoryNode" />
-              <item name="service-ribbon" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="sc-finchley-demo6" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sc-finchley-demo6" type="462c0819:PsiDirectoryNode" />
-              <item name="service-ribbon" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="sc-finchley-demo6" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sc-finchley-demo6" type="462c0819:PsiDirectoryNode" />
-              <item name="service-ribbon" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="serviceribbon" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="sc-finchley-demo6" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sc-finchley-demo6" type="462c0819:PsiDirectoryNode" />
-              <item name="service-ribbon" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="serviceribbon" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="sc-finchley-demo6" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sc-finchley-demo6" type="462c0819:PsiDirectoryNode" />
-              <item name="service-ribbon" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="serviceribbon" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="sc-finchley-demo6" type="b2602c69:ProjectViewProjectNode" />
@@ -489,14 +396,13 @@
         </subPane>
       </pane>
       <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SearchEverywhereHistoryKey" value="/**&#9;null&#9;null" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553857491120" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554083216971" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -595,16 +501,19 @@
       <workItem from="1553771076023" duration="5017000" />
       <workItem from="1553852372716" duration="4316000" />
       <workItem from="1553857423098" duration="110000" />
+      <workItem from="1554080477545" duration="2564000" />
+      <workItem from="1554086071586" duration="248000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15866000" />
+    <option name="totallyTimeSpent" value="18678000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25746268" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26012793" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -690,9 +599,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="171">
           <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -738,6 +644,7 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/service-zuul/src/main/java/com/liujun/servicezuul/filter/UserNameFilter.java" />
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="304">
@@ -747,7 +654,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/service-zuul/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
+        <state>
           <caret line="17" selection-start-line="17" selection-end-line="17" />
         </state>
       </provider>
@@ -766,43 +673,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/service-zuul/src/main/java/com/liujun/servicezuul/ServiceZuulApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="11" column="36" selection-start-line="11" selection-start-column="36" selection-end-line="11" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/service-zuul/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="513">
-          <caret line="27" column="73" selection-start-line="27" selection-start-column="73" selection-end-line="27" selection-end-column="73" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/service-zuul/src/main/java/com/liujun/servicezuul/filter/UserNameFilter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="646">
-          <caret line="37" column="24" selection-start-line="37" selection-start-column="24" selection-end-line="37" selection-end-column="24" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/service-zuul/src/main/java/com/liujun/servicezuul/filter/TokenFilter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="760">
-          <caret line="48" column="26" selection-start-line="48" selection-start-column="26" selection-end-line="48" selection-end-column="26" />
-          <folding>
-            <element signature="e#460#461#0" expanded="true" />
-            <element signature="e#513#514#0" expanded="true" />
-            <element signature="e#559#560#0" expanded="true" />
-            <element signature="e#601#602#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/service-ribbon/src/main/java/com/liujun/serviceribbon/web/HelloController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="95">
@@ -812,11 +682,60 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/service-ribbon/src/main/java/com/liujun/serviceribbon/service/HelloService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+        <state relative-caret-position="342">
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service-zuul/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="513">
+          <caret line="27" column="91" selection-start-line="27" selection-start-column="91" selection-end-line="27" selection-end-column="91" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/User/Desktop/sc-finchley-demo6/service-zuul/src/main/java/com/liujun/servicezuul/ServiceZuulApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="31" lean-forward="true" selection-end-line="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service-zuul/src/main/java/com/liujun/servicezuul/ServiceZuulApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="25" column="7" lean-forward="true" selection-start-line="25" selection-start-column="7" selection-end-line="25" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/User/Desktop/sc-finchley-demo6/service-zuul/src/main/java/com/liujun/servicezuul/filter/NameFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="8" lean-forward="true" selection-end-line="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/User/Desktop/sc-finchley-demo6/service-zuul/src/main/java/com/liujun/servicezuul/filter/TokenFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="8" column="45" lean-forward="true" selection-end-line="53" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service-zuul/src/main/java/com/liujun/servicezuul/filter/NameFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="760">
+          <caret line="49" lean-forward="true" selection-start-line="49" selection-end-line="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service-zuul/src/main/java/com/liujun/servicezuul/filter/TokenFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="779">
+          <caret line="53" column="1" selection-start-line="53" selection-start-column="1" selection-end-line="53" selection-end-column="1" />
         </state>
       </provider>
     </entry>

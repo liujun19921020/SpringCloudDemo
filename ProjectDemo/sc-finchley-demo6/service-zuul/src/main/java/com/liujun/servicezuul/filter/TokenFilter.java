@@ -14,7 +14,7 @@ public class TokenFilter extends ZuulFilter {
     private static Logger log = LoggerFactory.getLogger(TokenFilter.class);
     @Override
     public boolean shouldFilter() {
-        return true;// 是否执行该过滤器，此处为true，说明需要过滤
+        return true;// 是否执行该过滤器，此处为true为过滤
     }
 
     @Override
@@ -24,29 +24,31 @@ public class TokenFilter extends ZuulFilter {
 
     @Override
     public String filterType() {
-        return "pre";// 前置过滤器
+        return "pre";//pre：路由之前;routing：路由之时;post： 路由之后;error：发送错误调用
     }
 
     @Override
     public Object run() {
         RequestContext ctx = RequestContext.getCurrentContext();
+        ctx.getResponse().setCharacterEncoding("GBK");
+
         HttpServletRequest request = ctx.getRequest();
         log.info(String.format("%s -----------> %s", request.getMethod(), request.getRequestURL().toString()));
 
         Object accessToken = request.getParameter("token");// 获取请求的参数
         if(accessToken == null) {
-            log.warn("token is empty");
-
-            ctx.setSendZuulResponse(false);// 对该请求进行路由
+            ctx.setSendZuulResponse(false);// 是否允许该请求对下游进行路由
             ctx.setResponseStatusCode(401);// 返回错误码
+            ctx.setResponseBody("{\"status\":401,\"message\":\"token为空！\"}");//返回错误内容
 
-            try {
-                ctx.getResponse().getWriter().write("token is empty");
-            }catch (Exception e){}
+            //或者也可以后端打印下try {ctx.getResponse().getWriter().write("token is null");}catch (Exception e){}
 
+            //filter-is-success保存于上下文，作为同类型下游Filter的执行开关
+            ctx.set("filter-is-success", false);
             return null;
         }
-        log.info("token   ok");
+
+        ctx.set("filter-is-success", true);
         return null;
     }
 }
