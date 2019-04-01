@@ -1,0 +1,21 @@
+server:
+  port: 8001
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/
+
+spring:
+  application:
+    name: config-server
+
+
+  profiles:
+    active: native  # 指明配置文件在本地，会默认从应用的 src/main/resource 目录下检索配置文件
+
+  cloud:
+    config:
+      server:
+        native:
+          search-locations: D:/javaProject/ConfigDemo/  # 配置文件的目录

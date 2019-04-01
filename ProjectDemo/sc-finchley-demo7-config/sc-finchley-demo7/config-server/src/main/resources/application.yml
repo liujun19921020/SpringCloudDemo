@@ -1,0 +1,21 @@
+server:
+  port: 8001
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/
+
+spring:
+  application:
+    name: config-server
+
+
+  profiles:
+    active: native  # \u6307\u660E\u914D\u7F6E\u6587\u4EF6\u5728\u672C\u5730\uFF0C\u4F1A\u9ED8\u8BA4\u4ECE\u5E94\u7528\u7684 src/main/resource \u76EE\u5F55\u4E0B\u68C0\u7D22\u914D\u7F6E\u6587\u4EF6
+
+  cloud:
+    config:
+      server:
+        native:
+          search-locations: D:/javaProject/ConfigDemo/  # \u914D\u7F6E\u6587\u4EF6\u7684\u76EE\u5F55

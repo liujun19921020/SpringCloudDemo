@@ -1,0 +1,18 @@
+server:
+  port: 8002
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/
+
+spring:
+  application:
+    name: demo-config # \u6587\u4EF6\u540D\uFF08\u771F\u5B9E\u6587\u4EF6\u540D\u5373\u4E3A\uFF1Ademo-config-XXX.properties\uFF09
+  cloud:
+    config:
+      profile: dev #\u6587\u4EF6\u6A21\u5F0F\uFF08\u771F\u5B9E\u6587\u4EF6\u540D\u5373\u4E3A\uFF1AXXX-dev.properties\uFF09
+
+      discovery:
+        enabled: true
+        serviceId: config-server-git # \u914D\u7F6E\u4E2D\u5FC3\u7684\u670D\u52A1\u540D

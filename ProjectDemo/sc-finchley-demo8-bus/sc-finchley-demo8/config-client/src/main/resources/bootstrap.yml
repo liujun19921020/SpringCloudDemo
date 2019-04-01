@@ -1,0 +1,36 @@
+server:
+  port: 8002
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/
+
+spring:
+  application:
+    name: demo-config # 文件名（真实文件名即为：demo-config-XXX.properties）
+  cloud:
+    config:
+      profile: dev #文件模式（真实文件名即为：XXX-dev.properties）
+
+      discovery:
+        enabled: true
+        serviceId: config-server-git # 配置中心的服务名
+
+
+    bus:
+      enabled: true
+      trace:
+        enabled: true
+
+  rabbitmq:
+    host: localhost
+    port: 5672
+    username: guest
+    password: guest
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: bus-refresh

@@ -1,0 +1,22 @@
+server:
+  port: 8000
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/
+
+spring:
+  application:
+    name: config-server-git
+
+  cloud:
+    config:
+      label: master # \u914D\u7F6E\u4ED3\u5E93\u7684\u5206\u652F
+      server:
+        git:
+          uri: https://github.com/liujun19921020/SpringCloudDemo/  # \u914D\u7F6Egit\u4ED3\u5E93\u5730\u5740
+          searchPaths: ConfigDemo # \u914D\u7F6E\u4ED3\u5E93\u8DEF\u5F84
+          username: # \u8BBF\u95EEgit\u4ED3\u5E93\u7684\u7528\u6237\u540D
+          password: # \u8BBF\u95EEgit\u4ED3\u5E93\u7684\u7528\u6237\u5BC6\u7801
+
