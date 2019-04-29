@@ -1,0 +1,30 @@
+# 配置端口
+server:
+  port: 9000
+
+# 配置注册中心服务配置
+eureka:
+  server:
+    enable-self-preservation:  false # 关闭自我保护模式（缺省为启动，比如api提供者关闭了，但是eureka仍然会保留）
+    eviction-interval-timer-in-ms: 10000 # 清理间隔（毫秒，默认 60秒），将有问题的api提供者或app消费者剔除掉
+  instance:
+    hostname: localhost
+    prefer-ip-address: true
+  client:
+    #声明自己是服务端
+    registerWithEureka: false
+    fetchRegistry: false
+    serviceUrl:
+      defaultZone: http://root:123456@${eureka.instance.hostname}:${server.port}/eureka/
+
+# 配置中心命名
+spring:
+  application:
+    name: eureka-server
+  # 安全认证的配置
+  security:
+    basic:
+      enabled: true #开启认证
+    user:
+      name: root #用户名
+      password: 123456 #密码

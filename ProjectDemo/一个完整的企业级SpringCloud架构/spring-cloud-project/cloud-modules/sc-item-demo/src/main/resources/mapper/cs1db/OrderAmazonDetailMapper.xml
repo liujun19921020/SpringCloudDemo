@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.lj.scitemdemo.mapper.cs1db.OrderAmazonDetailMapper">
+
+    <!--==============================================start=====================================================-->
+    <resultMap id="getOrderListMap" type="com.lj.scitemdemo.entity.cs1db.vo.OrderProductVo">
+        <id column="id" property="id" />
+        <result column="order_id" property="orderId" />
+        <result column="sku" property="sku" />
+        <result column="site" property="site" />
+        <result column="order_status" property="orderStatus" />
+    </resultMap>
+    <select id="getOrderListInfo" resultMap="getOrderListMap">
+        SELECT
+            id, order_id, sku, site, order_status
+        FROM
+            order_amazon_detail
+        <where>
+            <if test = "orderId != null and orderId != ''">
+                order_id = #{orderId}
+            </if>
+            <if test = "orderStatus != null and orderStatus != ''">
+                AND order_status = #{orderStatus}
+            </if>
+            <if test = "sku != null and sku != ''">
+                AND sku = #{sku}
+            </if>
+        </where>
+    </select>
+    <!--==============================================end=====================================================-->
+
+    <update id="updateOrderStatus">
+        UPDATE order_amazon_detail
+        SET order_status = #{orderStatus}
+        <where>
+            <if test = "orderIdList != null and orderIdList.size() &gt; 0">
+                order_id IN
+                <foreach collection="orderIdList" item="orderId" separator="," open="(" close=")">
+                    #{orderId,jdbcType=VARCHAR}
+                </foreach>
+            </if>
+            <if test = "sku != null and sku != ''">
+                AND sku = #{sku}
+            </if>
+        </where>
+    </update>
+</mapper>
+
+
