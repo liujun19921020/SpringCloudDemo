@@ -83,19 +83,19 @@
           <entry key="project.open.time.3" value="1" />
           <entry key="project.open.time.4" value="9" />
           <entry key="project.open.time.5" value="6" />
-          <entry key="project.open.time.6" value="1" />
+          <entry key="project.open.time.6" value="2" />
           <entry key="project.open.time.8" value="1" />
-          <entry key="project.opened" value="30" />
+          <entry key="project.opened" value="31" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="class" value="14" />
           <entry key="dtd" value="1" />
-          <entry key="java" value="413" />
+          <entry key="java" value="418" />
           <entry key="key" value="1" />
           <entry key="properties" value="18" />
-          <entry key="xml" value="123" />
+          <entry key="xml" value="125" />
           <entry key="yml" value="78" />
         </counts>
       </usages-collector>
@@ -103,29 +103,29 @@
         <counts>
           <entry key="CLASS" value="14" />
           <entry key="DTD" value="1" />
-          <entry key="JAVA" value="413" />
+          <entry key="JAVA" value="418" />
           <entry key="PLAIN_TEXT" value="1" />
           <entry key="Properties" value="18" />
-          <entry key="XML" value="123" />
+          <entry key="XML" value="125" />
           <entry key="YAML" value="78" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="16" />
-          <entry key="java" value="1912" />
+          <entry key="java" value="1949" />
           <entry key="properties" value="45" />
-          <entry key="xml" value="144" />
+          <entry key="xml" value="155" />
           <entry key="yml" value="83" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="1912" />
+          <entry key="JAVA" value="1949" />
           <entry key="PLAIN_TEXT" value="16" />
           <entry key="Properties" value="45" />
           <entry key="SQL" value="4" />
-          <entry key="XML" value="140" />
+          <entry key="XML" value="151" />
           <entry key="YAML" value="83" />
         </counts>
       </usages-collector>
@@ -136,7 +136,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/cloud-modules/sc-elasticsearch-demo/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1672">
+            <state relative-caret-position="833">
               <caret line="88" selection-start-line="88" selection-end-line="88" />
             </state>
           </provider>
@@ -145,7 +145,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/cloud-modules/sc-elasticsearch-demo/src/main/java/com/lj/scelasticsearchdemo/controller/EsDemoController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="358">
+            <state relative-caret-position="912">
               <caret line="48" column="77" selection-start-line="48" selection-start-column="77" selection-end-line="48" selection-end-column="77" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -154,11 +154,50 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/cloud-modules/sc-elasticsearch-demo/src/main/java/com/lj/scelasticsearchdemo/common/vo/PageMap.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="208">
-              <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+              <caret line="12" selection-start-line="12" selection-end-line="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cloud-commons/commons-http/src/main/java/com/lj/commonshttp/RestTemplateHelper.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="396">
+              <caret line="63" column="24" selection-start-line="63" selection-start-column="24" selection-end-line="63" selection-end-column="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/cloud-commons/commons-http/src/main/java/com/lj/commonshttp/HttpUtilHelper.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="282">
+              <caret line="55" column="75" lean-forward="true" selection-start-line="55" selection-start-column="75" selection-end-line="55" selection-end-column="75" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cloud-commons/commons-http/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="437">
+              <caret line="23" column="42" selection-start-line="23" selection-start-column="42" selection-end-line="23" selection-end-column="42" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cloud-commons/commons-utils/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="244">
+              <caret line="14" column="4" selection-start-line="14" selection-start-column="4" selection-end-line="14" selection-end-column="18" />
             </state>
           </provider>
         </entry>
@@ -166,8 +205,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/cloud-modules/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="410">
-              <caret line="170" column="21" selection-start-line="136" selection-start-column="8" selection-end-line="170" selection-end-column="21" />
+            <state relative-caret-position="130">
+              <caret line="150" selection-start-line="150" selection-end-line="150" />
             </state>
           </provider>
         </entry>
@@ -210,8 +249,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/cloud-modules/sc-xxl-job-demo/src/main/java/com/lj/scxxljobdemo/config/SpringContextHolder.java" />
-        <option value="$PROJECT_DIR$/cloud-modules/sc-xxl-job-demo/src/main/resources/bootstrap.yml" />
         <option value="$PROJECT_DIR$/cloud-modules/sc-xxl-job-demo/src/main/java/com/lj/scxxljobdemo/config/XxlJobConfig.java" />
         <option value="$PROJECT_DIR$/cloud-modules/sc-item-demo/src/main/java/com/lj/scitemdemo/common/DataSourceSwitchAspect.java" />
         <option value="$PROJECT_DIR$/cloud-modules/sc-xxl-job-demo/src/main/java/com/lj/scxxljobdemo/common/DataSourceSwitchAspect.java" />
@@ -261,6 +298,8 @@
         <option value="$PROJECT_DIR$/cloud-modules/pom.xml" />
         <option value="$PROJECT_DIR$/cloud-modules/sc-elasticsearch-demo/src/main/java/com/lj/scelasticsearchdemo/ScElasticsearchDemoApplication.java" />
         <option value="$PROJECT_DIR$/cloud-modules/sc-elasticsearch-demo/pom.xml" />
+        <option value="$PROJECT_DIR$/cloud-commons/commons-http/pom.xml" />
+        <option value="$PROJECT_DIR$/cloud-commons/commons-http/src/main/java/com/lj/commonshttp/HttpUtilHelper.java" />
       </list>
     </option>
   </component>
@@ -283,12 +322,7 @@
       <expand>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="sc-muster-item-demo" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="sc-muster-item-demo" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+          <item name="sc-elasticsearch-demo" type="9519ce18:MavenProjectsStructure$ProjectNode" />
         </path>
       </expand>
       <select />
@@ -323,6 +357,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -330,11 +365,20 @@
               <item name="spring-cloud-project" type="b2602c69:ProjectViewProjectNode" />
               <item name="spring-cloud-project" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="spring-cloud-project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-cloud-project" type="462c0819:PsiDirectoryNode" />
+              <item name="cloud-commons" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-cloud-project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-cloud-project" type="462c0819:PsiDirectoryNode" />
+              <item name="cloud-modules" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -345,7 +389,7 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1567478354506" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1567504282453" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -356,11 +400,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.lj.commonshttp" />
       <recent name="com.lj.scelasticsearchdemo.controller" />
       <recent name="com.lj.scelasticsearchdemo.entity" />
       <recent name="com.lj.scelasticsearchdemo.service.impl" />
       <recent name="com.lj.scelasticsearchdemo.service" />
-      <recent name="com.lj.scelasticsearchdemo.config" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\SpringCloudDemo\spring-cloud-project\cloud-modules\sc-elasticsearch-demo\src\main\java\com\lj\scelasticsearchdemo\common" />
@@ -388,7 +432,20 @@
     </option>
     <option name="contentProportion" value="0.18506494" />
   </component>
-  <component name="RunManager" selected="Spring Boot.EurekaServerApplication">
+  <component name="RunManager" selected="Application.HttpUtilHelper">
+    <configuration name="HttpUtilHelper" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.lj.commonshttp.HttpUtilHelper" />
+      <module name="commons-http" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.lj.commonshttp.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="JasyptTool" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.lj.commonsutils.JasyptTool" />
       <module name="commons-utils" />
@@ -449,12 +506,14 @@
       <item itemvalue="Spring Boot.ConfigServerApplication" />
       <item itemvalue="Spring Boot.ScItemDemoApplication" />
       <item itemvalue="Spring Boot.ScXxlJobDemoApplication" />
-      <item itemvalue="Application.JasyptTool" />
       <item itemvalue="Spring Boot.ScMusterItemDemoApplication" />
       <item itemvalue="Spring Boot.ScElasticsearchDemoApplication" />
+      <item itemvalue="Application.JasyptTool" />
+      <item itemvalue="Application.HttpUtilHelper" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.HttpUtilHelper" />
         <item itemvalue="Application.JasyptTool" />
       </list>
     </recent_temporary>
@@ -502,17 +561,18 @@
       <workItem from="1566873873625" duration="1653000" />
       <workItem from="1566899537859" duration="22928000" />
       <workItem from="1567129391256" duration="36191000" />
+      <workItem from="1567497866437" duration="3711000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="176973000" />
+    <option name="totallyTimeSpent" value="180684000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.6372981" visible="true" weight="0.24200426" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.6372981" visible="true" weight="0.24200426" />
       <window_info id="Structure" order="1" sideWeight="0.36270192" side_tool="true" weight="0.24466951" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -534,7 +594,7 @@
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" weight="0.32900432" />
       <window_info anchor="bottom" id="Java Enterprise" order="12" />
       <window_info anchor="bottom" id="Messages" order="13" weight="0.32900432" />
-      <window_info anchor="bottom" id="Run Dashboard" order="14" weight="0.31385282" />
+      <window_info anchor="bottom" id="Run Dashboard" order="14" weight="0.37121212" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -558,79 +618,10 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/cloud-modules/sc-muster-item-demo/src/main/java/com/lj/scmusteritemdemo/service/cs1db/IOrderAmazonDetailService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="24" column="39" lean-forward="true" selection-start-line="24" selection-start-column="28" selection-end-line="24" selection-end-column="39" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-modules/sc-muster-item-demo/src/main/java/com/lj/scmusteritemdemo/feign/ScItemDemoFeignClient.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="12" column="33" lean-forward="true" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="33" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-modules/sc-muster-item-demo/src/main/java/com/lj/scmusteritemdemo/feign/hystrix/ScItemDemoFeignHystrix.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="13" column="40" selection-start-line="13" selection-start-column="23" selection-end-line="13" selection-end-column="40" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#431#432#0" expanded="true" />
-            <element signature="e#458#459#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-modules/sc-muster-item-demo/src/main/java/com/lj/scmusteritemdemo/ScMusterItemDemoApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="16" column="5" lean-forward="true" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-modules/sc-muster-item-demo/src/main/java/com/lj/scmusteritemdemo/config/MybatisPlusConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="28" column="37" selection-start-line="28" selection-start-column="37" selection-end-line="28" selection-end-column="37" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-modules/sc-muster-item-demo/src/main/java/com/lj/scmusteritemdemo/config/SpringContextHolder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-modules/sc-muster-item-demo/src/main/java/com/lj/scmusteritemdemo/controller/OrderProductController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-557">
-          <caret line="40" column="59" lean-forward="true" selection-start-line="40" selection-start-column="59" selection-end-line="40" selection-end-column="59" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/cloud-modules/sc-muster-item-demo/src/main/java/com/lj/scmusteritemdemo/service/cs1db/impl/OrderAmazonDetailServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="347">
           <caret line="24" column="4" selection-start-line="24" selection-start-column="4" selection-end-line="24" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -638,9 +629,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
           <caret line="17" column="14" lean-forward="true" selection-start-line="17" selection-start-column="14" selection-end-line="17" selection-end-column="14" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -743,30 +731,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-modules/sc-elasticsearch-demo/src/main/java/com/lj/scelasticsearchdemo/common/DynamicDataSource.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-modules/sc-elasticsearch-demo/src/main/java/com/lj/scelasticsearchdemo/config/RedisConfig.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-modules/sc-elasticsearch-demo/src/main/java/com/lj/scelasticsearchdemo/common/DbContextHolder.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-modules/sc-elasticsearch-demo/src/main/java/com/lj/scelasticsearchdemo/common/DataSourceSwitchAspect.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-modules/sc-elasticsearch-demo/src/main/java/com/lj/scelasticsearchdemo/config/SpringContextHolder.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-modules/sc-elasticsearch-demo/src/main/java/com/lj/scelasticsearchdemo/common/DBTypeEnum.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-modules/sc-elasticsearch-demo/src/main/java/com/lj/scelasticsearchdemo/common/DataSourceSwitch.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-modules/sc-elasticsearch-demo/src/main/java/com/lj/scelasticsearchdemo/config/MybatisPlusConfig.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-modules/sc-elasticsearch-demo/src/main/java/com/lj/scelasticsearchdemo/common/DynamicDataSource.java" />
+    <entry file="file://$PROJECT_DIR$/cloud-modules/sc-elasticsearch-demo/src/main/java/com/lj/scelasticsearchdemo/config/RedisConfig.java" />
+    <entry file="file://$PROJECT_DIR$/cloud-modules/sc-elasticsearch-demo/src/main/java/com/lj/scelasticsearchdemo/common/DbContextHolder.java" />
+    <entry file="file://$PROJECT_DIR$/cloud-modules/sc-elasticsearch-demo/src/main/java/com/lj/scelasticsearchdemo/common/DataSourceSwitchAspect.java" />
+    <entry file="file://$PROJECT_DIR$/cloud-modules/sc-elasticsearch-demo/src/main/java/com/lj/scelasticsearchdemo/config/SpringContextHolder.java" />
+    <entry file="file://$PROJECT_DIR$/cloud-modules/sc-elasticsearch-demo/src/main/java/com/lj/scelasticsearchdemo/common/DBTypeEnum.java" />
+    <entry file="file://$PROJECT_DIR$/cloud-modules/sc-elasticsearch-demo/src/main/java/com/lj/scelasticsearchdemo/common/DataSourceSwitch.java" />
+    <entry file="file://$PROJECT_DIR$/cloud-modules/sc-elasticsearch-demo/src/main/java/com/lj/scelasticsearchdemo/config/MybatisPlusConfig.java" />
     <entry file="file://$PROJECT_DIR$/cloud-modules/sc-muster-item-demo/src/main/java/com/lj/scmusteritemdemo/common/DataSourceSwitch.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="247">
@@ -821,16 +793,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="152">
           <caret line="10" column="26" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="26" />
-          <folding>
-            <element signature="e#365#366#0" expanded="true" />
-            <element signature="e#396#397#0" expanded="true" />
-            <element signature="e#444#445#0" expanded="true" />
-            <element signature="e#484#485#0" expanded="true" />
-            <element signature="e#523#524#0" expanded="true" />
-            <element signature="e#558#559#0" expanded="true" />
-            <element signature="e#614#615#0" expanded="true" />
-            <element signature="e#662#663#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -838,9 +800,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="152">
           <caret line="8" column="30" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="30" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -893,23 +852,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-modules/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="410">
-          <caret line="170" column="21" selection-start-line="136" selection-start-column="8" selection-end-line="170" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-modules/sc-elasticsearch-demo/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1672">
-          <caret line="88" selection-start-line="88" selection-end-line="88" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/cloud-modules/sc-elasticsearch-demo/src/main/java/com/lj/scelasticsearchdemo/controller/EsDemoController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="358">
+        <state relative-caret-position="912">
           <caret line="48" column="77" selection-start-line="48" selection-start-column="77" selection-end-line="48" selection-end-column="77" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -920,7 +865,73 @@
     <entry file="file://$PROJECT_DIR$/cloud-modules/sc-elasticsearch-demo/src/main/java/com/lj/scelasticsearchdemo/common/vo/PageMap.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="208">
-          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-commons/commons-utils/src/main/java/com/lj/commonsutils/helper/FileHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-commons/commons-utils/src/main/java/com/lj/commonsutils/helper/StringHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-commons/commons-utils/src/main/java/com/lj/commonsutils/helper/ObjectHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-modules/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="130">
+          <caret line="150" selection-start-line="150" selection-end-line="150" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-modules/sc-elasticsearch-demo/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="833">
+          <caret line="88" selection-start-line="88" selection-end-line="88" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-commons/commons-http/src/main/java/com/lj/commonshttp/RestTemplateHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="63" column="24" selection-start-line="63" selection-start-column="24" selection-end-line="63" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-commons/commons-utils/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="244">
+          <caret line="14" column="4" selection-start-line="14" selection-start-column="4" selection-end-line="14" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-commons/commons-http/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="23" column="42" selection-start-line="23" selection-start-column="42" selection-end-line="23" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-commons/commons-http/src/main/java/com/lj/commonshttp/HttpUtilHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="282">
+          <caret line="55" column="75" lean-forward="true" selection-start-line="55" selection-start-column="75" selection-end-line="55" selection-end-column="75" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
