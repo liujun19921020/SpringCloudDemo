@@ -1,0 +1,24 @@
+server:
+  port: 8000
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://root:123456@localhost:9000/eureka/
+  instance:
+    prefer-ip-address: true
+
+spring:
+  application:
+    name: config-server #应用名
+  cloud:
+    config:
+      label: master # 配置仓库的分支
+      server:
+        git:
+          uri: https://github.com/liujun19921020/SpringCloudDemo.git  # 配置git仓库地址
+          searchPaths: ConfigDemo # 配置仓库路径
+          username: # 访问git仓库的用户名
+          password: # 访问git仓库的用户密码
+        native:
+          search-locations: D:/javaProject/ConfigDemo/  #本地配置文件位置

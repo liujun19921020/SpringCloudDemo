@@ -1,0 +1,134 @@
+2019-08-29 11:49:49.421 [main] INFO  o.s.c.c.c.ConfigServicePropertySourceLocator -Fetching config from server at : http://192.168.31.54:8000/
+2019-08-29 11:50:37.808 [main] INFO  o.s.c.c.c.ConfigServicePropertySourceLocator -Located environment: name=sc-xxl-job-demo, profiles=[default], label=null, version=51ee7c2d923d3031102f5513ef8f8951cace2a34, state=null
+2019-08-29 11:50:37.809 [main] INFO  o.s.c.b.c.PropertySourceBootstrapConfiguration -Located property source: CompositePropertySource {name='configService', propertySources=[MapPropertySource {name='configClient'}]}
+2019-08-29 11:50:37.832 [main] INFO  c.u.j.c.EnableEncryptablePropertiesConfiguration -Bootstraping jasypt-string-boot auto configuration in context: sc-xxl-job-demo-1
+2019-08-29 11:50:37.834 [main] INFO  c.l.s.ScXxlJobDemoApplication -The following profiles are active: dev
+2019-08-29 11:50:37.846 [main] INFO  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext -Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@45e1aa48: startup date [Thu Aug 29 11:50:37 CST 2019]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@61001b64
+2019-08-29 11:50:38.494 [main] WARN  o.m.s.mapper.ClassPathMapperScanner -No MyBatis mapper was found in '[com.lj.scitemdemo.mapper.*]' package. Please check your configuration.
+2019-08-29 11:50:38.616 [main] WARN  o.m.s.mapper.ClassPathMapperScanner -No MyBatis mapper was found in '[com.lj.scxxljobdemo]' package. Please check your configuration.
+2019-08-29 11:50:38.635 [main] WARN  o.m.s.mapper.ClassPathMapperScanner -No MyBatis mapper was found in '[com.lj.scxxljobdemo]' package. Please check your configuration.
+2019-08-29 11:50:38.705 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate -Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-08-29 11:50:39.152 [main] INFO  o.s.cloud.context.scope.GenericScope -BeanFactory id=84cfe498-c8b6-3f6b-aa08-b4257fb6a203
+2019-08-29 11:50:39.167 [main] INFO  c.u.j.c.EnableEncryptablePropertiesBeanFactoryPostProcessor -Post-processing PropertySource instances
+2019-08-29 11:50:39.205 [main] INFO  c.u.j.EncryptablePropertySourceConverter -Converting PropertySource bootstrapProperties [org.springframework.core.env.CompositePropertySource] to EncryptableEnumerablePropertySourceWrapper
+2019-08-29 11:50:39.206 [main] INFO  c.u.j.EncryptablePropertySourceConverter -Converting PropertySource configurationProperties [org.springframework.boot.context.properties.source.ConfigurationPropertySourcesPropertySource] to AOP Proxy
+2019-08-29 11:50:39.206 [main] INFO  c.u.j.EncryptablePropertySourceConverter -Converting PropertySource servletConfigInitParams [org.springframework.core.env.PropertySource$StubPropertySource] to EncryptablePropertySourceWrapper
+2019-08-29 11:50:39.206 [main] INFO  c.u.j.EncryptablePropertySourceConverter -Converting PropertySource servletContextInitParams [org.springframework.core.env.PropertySource$StubPropertySource] to EncryptablePropertySourceWrapper
+2019-08-29 11:50:39.207 [main] INFO  c.u.j.EncryptablePropertySourceConverter -Converting PropertySource systemProperties [org.springframework.core.env.MapPropertySource] to EncryptableMapPropertySourceWrapper
+2019-08-29 11:50:39.207 [main] INFO  c.u.j.EncryptablePropertySourceConverter -Converting PropertySource systemEnvironment [org.springframework.boot.env.SystemEnvironmentPropertySourceEnvironmentPostProcessor$OriginAwareSystemEnvironmentPropertySource] to EncryptableMapPropertySourceWrapper
+2019-08-29 11:50:39.207 [main] INFO  c.u.j.EncryptablePropertySourceConverter -Converting PropertySource random [org.springframework.boot.env.RandomValuePropertySource] to EncryptablePropertySourceWrapper
+2019-08-29 11:50:39.207 [main] INFO  c.u.j.EncryptablePropertySourceConverter -Converting PropertySource applicationConfig: [classpath:/application.properties] [org.springframework.boot.env.OriginTrackedMapPropertySource] to EncryptableMapPropertySourceWrapper
+2019-08-29 11:50:39.207 [main] INFO  c.u.j.EncryptablePropertySourceConverter -Converting PropertySource applicationConfig: [classpath:/application.yml] [org.springframework.boot.env.OriginTrackedMapPropertySource] to EncryptableMapPropertySourceWrapper
+2019-08-29 11:50:39.207 [main] INFO  c.u.j.EncryptablePropertySourceConverter -Converting PropertySource springCloudClientHostInfo [org.springframework.core.env.MapPropertySource] to EncryptableMapPropertySourceWrapper
+2019-08-29 11:50:39.207 [main] INFO  c.u.j.EncryptablePropertySourceConverter -Converting PropertySource defaultProperties [org.springframework.core.env.MapPropertySource] to EncryptableMapPropertySourceWrapper
+2019-08-29 11:50:39.219 [main] INFO  o.s.b.f.a.AutowiredAnnotationBeanPostProcessor -JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2019-08-29 11:50:39.250 [main] INFO  c.u.j.f.DefaultLazyPropertyFilter -Property Filter custom Bean not found with name 'encryptablePropertyFilter'. Initializing Default Property Filter
+2019-08-29 11:50:39.358 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker -Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$f32889f1] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-08-29 11:50:39.743 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker -Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$f428cee] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-08-29 11:50:39.846 [main] INFO  c.u.j.r.DefaultLazyPropertyResolver -Property Resolver custom Bean not found with name 'encryptablePropertyResolver'. Initializing Default Property Resolver
+2019-08-29 11:50:39.846 [main] INFO  c.u.j.d.DefaultLazyPropertyDetector -Property Detector custom Bean not found with name 'encryptablePropertyDetector'. Initializing Default Property Detector
+2019-08-29 11:50:40.067 [main] INFO  org.eclipse.jetty.util.log -Logging initialized @55675ms to org.eclipse.jetty.util.log.Slf4jLog
+2019-08-29 11:50:40.347 [main] INFO  o.s.b.w.e.j.JettyServletWebServerFactory -Server initialized with port: 7700
+2019-08-29 11:50:40.349 [main] INFO  org.eclipse.jetty.server.Server -jetty-9.4.11.v20180605; built: 2018-06-05T18:24:03.829Z; git: d5fc0523cfa96bfebfbda19606cad384d772f04c; jvm 1.8.0_191-b12
+2019-08-29 11:50:40.479 [main] INFO  org.eclipse.jetty.server.session -DefaultSessionIdManager workerName=node0
+2019-08-29 11:50:40.479 [main] INFO  org.eclipse.jetty.server.session -No SessionScavenger set, using defaults
+2019-08-29 11:50:40.481 [main] INFO  org.eclipse.jetty.server.session -node0 Scavenging every 660000ms
+2019-08-29 11:50:40.487 [main] INFO  o.e.j.s.h.ContextHandler.application -Initializing Spring embedded WebApplicationContext
+2019-08-29 11:50:40.488 [main] INFO  o.s.web.context.ContextLoader -Root WebApplicationContext: initialization completed in 2642 ms
+2019-08-29 11:50:40.691 [main] INFO  o.s.b.w.s.ServletRegistrationBean -Servlet dispatcherServlet mapped to [/]
+2019-08-29 11:50:40.693 [main] INFO  o.s.b.w.s.ServletRegistrationBean -Servlet statViewServlet mapped to [/druid/*]
+2019-08-29 11:50:40.694 [main] INFO  o.s.b.w.s.FilterRegistrationBean -Mapping filter: 'characterEncodingFilter' to: [/*]
+2019-08-29 11:50:40.694 [main] INFO  o.s.b.w.s.FilterRegistrationBean -Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2019-08-29 11:50:40.694 [main] INFO  o.s.b.w.s.FilterRegistrationBean -Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2019-08-29 11:50:40.694 [main] INFO  o.s.b.w.s.FilterRegistrationBean -Mapping filter: 'requestContextFilter' to: [/*]
+2019-08-29 11:50:40.694 [main] INFO  o.s.b.w.s.FilterRegistrationBean -Mapping filter: 'webStatFilter' to urls: [/*]
+2019-08-29 11:50:40.698 [main] INFO  o.e.j.server.handler.ContextHandler -Started o.s.b.w.e.j.JettyEmbeddedWebAppContext@27ec8754{application,/,[file:///C:/Users/Yibai/AppData/Local/Temp/jetty-docbase.2411825090387163758.7700/],AVAILABLE}
+2019-08-29 11:50:40.699 [main] INFO  org.eclipse.jetty.server.Server -Started @56307ms
+2019-08-29 11:50:40.734 [main] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext -Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'cs1DbJobHandler': Unsatisfied dependency expressed through field 'cs1DbService'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'cs1DbServiceImpl': Injection of resource dependencies failed; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.lj.scxxljobdemo.mapper.cs1db.Cs1DbMapper' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@javax.annotation.Resource(shareable=true, lookup=, name=, description=, authenticationType=CONTAINER, type=class java.lang.Object, mappedName=)}
+2019-08-29 11:50:40.736 [main] INFO  org.eclipse.jetty.server.session -node0 Stopped scavenging
+2019-08-29 11:50:40.738 [main] INFO  o.e.j.server.handler.ContextHandler -Stopped o.s.b.w.e.j.JettyEmbeddedWebAppContext@27ec8754{application,/,[file:///C:/Users/Yibai/AppData/Local/Temp/jetty-docbase.2411825090387163758.7700/],UNAVAILABLE}
+2019-08-29 11:50:40.746 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener -
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2019-08-29 11:50:40.944 [main] ERROR o.s.b.d.LoggingFailureAnalysisReporter -
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field cs1DbService in com.lj.scxxljobdemo.jobhandler.Cs1DbJobHandler required a bean of type 'com.lj.scxxljobdemo.mapper.cs1db.Cs1DbMapper' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'com.lj.scxxljobdemo.mapper.cs1db.Cs1DbMapper' in your configuration.
+
+2019-08-29 11:51:41.080 [main] INFO  o.s.c.c.c.ConfigServicePropertySourceLocator -Fetching config from server at : http://192.168.31.54:8000/
+2019-08-29 11:51:43.964 [main] INFO  o.s.c.c.c.ConfigServicePropertySourceLocator -Located environment: name=sc-xxl-job-demo, profiles=[default], label=null, version=51ee7c2d923d3031102f5513ef8f8951cace2a34, state=null
+2019-08-29 11:51:43.964 [main] INFO  o.s.c.b.c.PropertySourceBootstrapConfiguration -Located property source: CompositePropertySource {name='configService', propertySources=[MapPropertySource {name='configClient'}]}
+2019-08-29 11:51:43.985 [main] INFO  c.u.j.c.EnableEncryptablePropertiesConfiguration -Bootstraping jasypt-string-boot auto configuration in context: sc-xxl-job-demo-1
+2019-08-29 11:51:43.987 [main] INFO  c.l.s.ScXxlJobDemoApplication -The following profiles are active: dev
+2019-08-29 11:51:43.997 [main] INFO  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext -Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@1cec219f: startup date [Thu Aug 29 11:51:43 CST 2019]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@2dc54ad4
+2019-08-29 11:51:44.423 [main] WARN  o.m.s.mapper.ClassPathMapperScanner -No MyBatis mapper was found in '[com.lj.scitemdemo.mapper.*]' package. Please check your configuration.
+2019-08-29 11:51:44.538 [main] WARN  o.m.s.mapper.ClassPathMapperScanner -No MyBatis mapper was found in '[com.lj.scxxljobdemo]' package. Please check your configuration.
+2019-08-29 11:51:44.552 [main] WARN  o.m.s.mapper.ClassPathMapperScanner -No MyBatis mapper was found in '[com.lj.scxxljobdemo]' package. Please check your configuration.
+2019-08-29 11:51:44.599 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate -Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-08-29 11:51:44.925 [main] INFO  o.s.cloud.context.scope.GenericScope -BeanFactory id=84cfe498-c8b6-3f6b-aa08-b4257fb6a203
+2019-08-29 11:51:44.939 [main] INFO  c.u.j.c.EnableEncryptablePropertiesBeanFactoryPostProcessor -Post-processing PropertySource instances
+2019-08-29 11:51:44.968 [main] INFO  c.u.j.EncryptablePropertySourceConverter -Converting PropertySource bootstrapProperties [org.springframework.core.env.CompositePropertySource] to EncryptableEnumerablePropertySourceWrapper
+2019-08-29 11:51:44.969 [main] INFO  c.u.j.EncryptablePropertySourceConverter -Converting PropertySource configurationProperties [org.springframework.boot.context.properties.source.ConfigurationPropertySourcesPropertySource] to AOP Proxy
+2019-08-29 11:51:44.969 [main] INFO  c.u.j.EncryptablePropertySourceConverter -Converting PropertySource servletConfigInitParams [org.springframework.core.env.PropertySource$StubPropertySource] to EncryptablePropertySourceWrapper
+2019-08-29 11:51:44.969 [main] INFO  c.u.j.EncryptablePropertySourceConverter -Converting PropertySource servletContextInitParams [org.springframework.core.env.PropertySource$StubPropertySource] to EncryptablePropertySourceWrapper
+2019-08-29 11:51:44.969 [main] INFO  c.u.j.EncryptablePropertySourceConverter -Converting PropertySource systemProperties [org.springframework.core.env.MapPropertySource] to EncryptableMapPropertySourceWrapper
+2019-08-29 11:51:44.969 [main] INFO  c.u.j.EncryptablePropertySourceConverter -Converting PropertySource systemEnvironment [org.springframework.boot.env.SystemEnvironmentPropertySourceEnvironmentPostProcessor$OriginAwareSystemEnvironmentPropertySource] to EncryptableMapPropertySourceWrapper
+2019-08-29 11:51:44.969 [main] INFO  c.u.j.EncryptablePropertySourceConverter -Converting PropertySource random [org.springframework.boot.env.RandomValuePropertySource] to EncryptablePropertySourceWrapper
+2019-08-29 11:51:44.969 [main] INFO  c.u.j.EncryptablePropertySourceConverter -Converting PropertySource applicationConfig: [classpath:/application.properties] [org.springframework.boot.env.OriginTrackedMapPropertySource] to EncryptableMapPropertySourceWrapper
+2019-08-29 11:51:44.969 [main] INFO  c.u.j.EncryptablePropertySourceConverter -Converting PropertySource applicationConfig: [classpath:/application.yml] [org.springframework.boot.env.OriginTrackedMapPropertySource] to EncryptableMapPropertySourceWrapper
+2019-08-29 11:51:44.970 [main] INFO  c.u.j.EncryptablePropertySourceConverter -Converting PropertySource springCloudClientHostInfo [org.springframework.core.env.MapPropertySource] to EncryptableMapPropertySourceWrapper
+2019-08-29 11:51:44.970 [main] INFO  c.u.j.EncryptablePropertySourceConverter -Converting PropertySource defaultProperties [org.springframework.core.env.MapPropertySource] to EncryptableMapPropertySourceWrapper
+2019-08-29 11:51:44.978 [main] INFO  o.s.b.f.a.AutowiredAnnotationBeanPostProcessor -JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2019-08-29 11:51:45.000 [main] INFO  c.u.j.f.DefaultLazyPropertyFilter -Property Filter custom Bean not found with name 'encryptablePropertyFilter'. Initializing Default Property Filter
+2019-08-29 11:51:45.094 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker -Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$1d1302f8] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-08-29 11:51:45.240 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker -Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$392d05f5] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-08-29 11:51:45.303 [main] INFO  c.u.j.r.DefaultLazyPropertyResolver -Property Resolver custom Bean not found with name 'encryptablePropertyResolver'. Initializing Default Property Resolver
+2019-08-29 11:51:45.304 [main] INFO  c.u.j.d.DefaultLazyPropertyDetector -Property Detector custom Bean not found with name 'encryptablePropertyDetector'. Initializing Default Property Detector
+2019-08-29 11:51:45.463 [main] INFO  org.eclipse.jetty.util.log -Logging initialized @10011ms to org.eclipse.jetty.util.log.Slf4jLog
+2019-08-29 11:51:45.696 [main] INFO  o.s.b.w.e.j.JettyServletWebServerFactory -Server initialized with port: 7700
+2019-08-29 11:51:45.697 [main] INFO  org.eclipse.jetty.server.Server -jetty-9.4.11.v20180605; built: 2018-06-05T18:24:03.829Z; git: d5fc0523cfa96bfebfbda19606cad384d772f04c; jvm 1.8.0_191-b12
+2019-08-29 11:51:45.813 [main] INFO  org.eclipse.jetty.server.session -DefaultSessionIdManager workerName=node0
+2019-08-29 11:51:45.814 [main] INFO  org.eclipse.jetty.server.session -No SessionScavenger set, using defaults
+2019-08-29 11:51:45.815 [main] INFO  org.eclipse.jetty.server.session -node0 Scavenging every 660000ms
+2019-08-29 11:51:45.821 [main] INFO  o.e.j.s.h.ContextHandler.application -Initializing Spring embedded WebApplicationContext
+2019-08-29 11:51:45.821 [main] INFO  o.s.web.context.ContextLoader -Root WebApplicationContext: initialization completed in 1824 ms
+2019-08-29 11:51:46.026 [main] INFO  o.s.b.w.s.ServletRegistrationBean -Servlet dispatcherServlet mapped to [/]
+2019-08-29 11:51:46.028 [main] INFO  o.s.b.w.s.ServletRegistrationBean -Servlet statViewServlet mapped to [/druid/*]
+2019-08-29 11:51:46.029 [main] INFO  o.s.b.w.s.FilterRegistrationBean -Mapping filter: 'characterEncodingFilter' to: [/*]
+2019-08-29 11:51:46.029 [main] INFO  o.s.b.w.s.FilterRegistrationBean -Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2019-08-29 11:51:46.029 [main] INFO  o.s.b.w.s.FilterRegistrationBean -Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2019-08-29 11:51:46.029 [main] INFO  o.s.b.w.s.FilterRegistrationBean -Mapping filter: 'requestContextFilter' to: [/*]
+2019-08-29 11:51:46.029 [main] INFO  o.s.b.w.s.FilterRegistrationBean -Mapping filter: 'webStatFilter' to urls: [/*]
+2019-08-29 11:51:46.033 [main] INFO  o.e.j.server.handler.ContextHandler -Started o.s.b.w.e.j.JettyEmbeddedWebAppContext@6b867ee7{application,/,[file:///C:/Users/Yibai/AppData/Local/Temp/jetty-docbase.6707123368285951566.7700/],AVAILABLE}
+2019-08-29 11:51:46.034 [main] INFO  org.eclipse.jetty.server.Server -Started @10582ms
+2019-08-29 11:51:46.068 [main] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext -Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'cs1DbJobHandler': Unsatisfied dependency expressed through field 'cs1DbService'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'cs1DbServiceImpl': Injection of resource dependencies failed; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.lj.scxxljobdemo.mapper.cs1db.Cs1DbMapper' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@javax.annotation.Resource(shareable=true, lookup=, name=, description=, authenticationType=CONTAINER, type=class java.lang.Object, mappedName=)}
+2019-08-29 11:51:46.070 [main] INFO  org.eclipse.jetty.server.session -node0 Stopped scavenging
+2019-08-29 11:51:46.072 [main] INFO  o.e.j.server.handler.ContextHandler -Stopped o.s.b.w.e.j.JettyEmbeddedWebAppContext@6b867ee7{application,/,[file:///C:/Users/Yibai/AppData/Local/Temp/jetty-docbase.6707123368285951566.7700/],UNAVAILABLE}
+2019-08-29 11:51:46.080 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener -
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2019-08-29 11:51:46.280 [main] ERROR o.s.b.d.LoggingFailureAnalysisReporter -
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field cs1DbService in com.lj.scxxljobdemo.jobhandler.Cs1DbJobHandler required a bean of type 'com.lj.scxxljobdemo.mapper.cs1db.Cs1DbMapper' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'com.lj.scxxljobdemo.mapper.cs1db.Cs1DbMapper' in your configuration.
+

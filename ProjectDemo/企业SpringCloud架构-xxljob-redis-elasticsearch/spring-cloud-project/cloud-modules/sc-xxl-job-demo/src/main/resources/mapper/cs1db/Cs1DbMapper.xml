@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.lj.scxxljobdemo.mapper.cs1db.Cs1DbMapper">
+
+    <insert id="createTableName">
+         DROP TABLE IF EXISTS ${tableName}_${dateName};
+         CREATE TABLE ${tableName}_${dateName} LIKE ${tableName}
+    </insert>
+
+    <insert id="addTableData">
+        INSERT INTO ${tableName}_${dateName} SELECT * FROM ${tableName}
+    </insert>
+
+    <delete id="deleteTableName" >
+        DROP TABLE IF EXISTS ${tableName}_${dateName}
+    </delete>
+</mapper>
+
+

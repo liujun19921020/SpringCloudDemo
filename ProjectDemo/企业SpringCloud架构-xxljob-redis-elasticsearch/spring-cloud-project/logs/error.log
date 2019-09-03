@@ -1,0 +1,30 @@
+2019-08-29 11:50:40.944 [main] ERROR o.s.b.d.LoggingFailureAnalysisReporter -
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field cs1DbService in com.lj.scxxljobdemo.jobhandler.Cs1DbJobHandler required a bean of type 'com.lj.scxxljobdemo.mapper.cs1db.Cs1DbMapper' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'com.lj.scxxljobdemo.mapper.cs1db.Cs1DbMapper' in your configuration.
+
+2019-08-29 11:51:46.280 [main] ERROR o.s.b.d.LoggingFailureAnalysisReporter -
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field cs1DbService in com.lj.scxxljobdemo.jobhandler.Cs1DbJobHandler required a bean of type 'com.lj.scxxljobdemo.mapper.cs1db.Cs1DbMapper' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'com.lj.scxxljobdemo.mapper.cs1db.Cs1DbMapper' in your configuration.
+

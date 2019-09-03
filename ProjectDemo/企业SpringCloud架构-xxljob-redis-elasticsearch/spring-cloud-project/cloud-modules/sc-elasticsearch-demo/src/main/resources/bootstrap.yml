@@ -1,0 +1,21 @@
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: ${eureka_server_defaultzone:http://root:123456@localhost:9000/eureka/}
+  instance:
+    prefer-ip-address: true
+spring:
+  application:
+    name: sc-elasticsearch-demo
+  cloud:
+    config:
+      discovery:
+        service-id: config-server
+        enabled: true
+#设置日志打印配置
+logging:
+  config: classpath:logback.xml
+#设置jasypt加密配置
+jasypt:
+  encryptor:
+    password: ${jasypt_encryptor_password:lj&92&jm}

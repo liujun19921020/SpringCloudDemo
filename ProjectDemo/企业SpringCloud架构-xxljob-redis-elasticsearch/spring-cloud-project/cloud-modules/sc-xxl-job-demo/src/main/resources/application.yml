@@ -1,0 +1,24 @@
+spring:
+  aop:
+    proxy-target-class: true
+    auto: true
+  datasource:
+    druid:
+      # cs1_db库
+      cs1-db:
+        url: jdbc:mysql://${cloud.cs1db.common.host}:${cloud.cs1db.common.port}/${cloud.cs1db.common.database}?useAffectedRows=true&useUnicode=true&characterEncoding=utf8&allowMultiQueries=true&serverTimezone=UTC&useSSL=false&verifyServerCertificate=false&autoReconnct=true&autoReconnectForPools=true&allowPublicKeyRetrieval=true&zeroDateTimeBehavior=convertToNull
+        driver-class-name: com.mysql.jdbc.Driver
+        username: ${cloud.cs1db.common.username}
+        password: ${cloud.cs1db.common.password}
+        initialSize: 5
+        minIdle: 5
+        maxActive: 20
+      # cs2_db库
+      cs2-db:
+        url: jdbc:mysql://${cloud.cs2db.common.host}:${cloud.cs2db.common.port}/${cloud.cs2db.common.database}?useAffectedRows=true&useUnicode=true&characterEncoding=utf8&allowMultiQueries=true&serverTimezone=UTC&useSSL=false&verifyServerCertificate=false&autoReconnct=true&autoReconnectForPools=true&allowPublicKeyRetrieval=true&zeroDateTimeBehavior=convertToNull
+        driver-class-name: com.mysql.jdbc.Driver
+        username: ${cloud.cs2db.common.username}
+        password: ${cloud.cs2db.common.password}
+        initialSize: 5
+        minIdle: 5
+        maxActive: 20

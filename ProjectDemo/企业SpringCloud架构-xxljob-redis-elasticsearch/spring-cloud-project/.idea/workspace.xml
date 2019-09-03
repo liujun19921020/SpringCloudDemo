@@ -1,0 +1,977 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="acf82d7d-16e6-4079-a397-5277491fe08c" name="Default Changelist" comment="" />
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <ignored path="$PROJECT_DIR$/eureka-server/target/" />
+    <ignored path="$PROJECT_DIR$/config-server/target/" />
+    <ignored path="$PROJECT_DIR$/cloud-commons/target/" />
+    <ignored path="$PROJECT_DIR$/cloud-commons/commons-http/target/" />
+    <ignored path="$PROJECT_DIR$/cloud-commons/commons-utils/target/" />
+    <ignored path="$PROJECT_DIR$/cloud-modules/target/" />
+    <ignored path="$PROJECT_DIR$/cloud-modules/sc-mybatis-item/target/" />
+    <ignored path="$PROJECT_DIR$/cloud-modules/sc-item-demo/target/" />
+    <ignored path="$PROJECT_DIR$/cloud-modules/sc-xxl-job-demo/target/" />
+    <ignored path="$PROJECT_DIR$/cloud-modules/sc-muster-item-demo/target/" />
+    <ignored path="$PROJECT_DIR$/cloud-modules/sc-elasticsearch-demo/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="1280199784">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="2" />
+          <entry key="project.open.time.2" value="1" />
+          <entry key="project.open.time.4" value="1" />
+          <entry key="project.open.time.5" value="1" />
+          <entry key="project.opened" value="3" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="xml" value="7" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="XML" value="7" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="xml" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="XML" value="2" />
+        </counts>
+      </usages-collector>
+    </session>
+    <session id="401654012">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="26" />
+          <entry key="project.open.time.1" value="1" />
+          <entry key="project.open.time.12" value="1" />
+          <entry key="project.open.time.13" value="1" />
+          <entry key="project.open.time.17" value="2" />
+          <entry key="project.open.time.18" value="1" />
+          <entry key="project.open.time.19" value="1" />
+          <entry key="project.open.time.2" value="3" />
+          <entry key="project.open.time.27" value="1" />
+          <entry key="project.open.time.29" value="1" />
+          <entry key="project.open.time.3" value="1" />
+          <entry key="project.open.time.4" value="9" />
+          <entry key="project.open.time.5" value="6" />
+          <entry key="project.open.time.6" value="1" />
+          <entry key="project.open.time.8" value="1" />
+          <entry key="project.opened" value="30" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="class" value="14" />
+          <entry key="dtd" value="1" />
+          <entry key="java" value="413" />
+          <entry key="key" value="1" />
+          <entry key="properties" value="18" />
+          <entry key="xml" value="123" />
+          <entry key="yml" value="78" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="CLASS" value="14" />
+          <entry key="DTD" value="1" />
+          <entry key="JAVA" value="413" />
+          <entry key="PLAIN_TEXT" value="1" />
+          <entry key="Properties" value="18" />
+          <entry key="XML" value="123" />
+          <entry key="YAML" value="78" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="dummy" value="16" />
+          <entry key="java" value="1912" />
+          <entry key="properties" value="45" />
+          <entry key="xml" value="144" />
+          <entry key="yml" value="83" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="JAVA" value="1912" />
+          <entry key="PLAIN_TEXT" value="16" />
+          <entry key="Properties" value="45" />
+          <entry key="SQL" value="4" />
+          <entry key="XML" value="140" />
+          <entry key="YAML" value="83" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cloud-modules/sc-elasticsearch-demo/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1672">
+              <caret line="88" selection-start-line="88" selection-end-line="88" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cloud-modules/sc-elasticsearch-demo/src/main/java/com/lj/scelasticsearchdemo/controller/EsDemoController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="358">
+              <caret line="48" column="77" selection-start-line="48" selection-start-column="77" selection-end-line="48" selection-end-column="77" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/cloud-modules/sc-elasticsearch-demo/src/main/java/com/lj/scelasticsearchdemo/common/vo/PageMap.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="208">
+              <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cloud-modules/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="410">
+              <caret line="170" column="21" selection-start-line="136" selection-start-column="8" selection-end-line="170" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>MATCH_TIME_24</find>
+      <find>yyyy-MM-dd HH:mm:ss</find>
+      <find>ExcelAnalysisCallBack</find>
+      <find>getFullFileNameByFile</find>
+      <find>compress</find>
+      <find>ali</find>
+      <find>hystrix</find>
+      <find>updateOrderStatus</find>
+      <find>DynamicDataSource</find>
+      <find>xxl-job-core</find>
+      <find>aspectjrt</find>
+      <find>ElasticsearchTemplate</find>
+      <find>server.port=</find>
+      <find>SpringBootApplication</find>
+    </findStrings>
+    <replaceStrings>
+      <replace />
+    </replaceStrings>
+    <dirStrings>
+      <dir>D:\SpringCloudDemo\spring-cloud-project</dir>
+      <dir>D:\SpringCloudDemo\spring-cloud-project\cloud-modules\sc-elasticsearch-demo</dir>
+    </dirStrings>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/cloud-modules/sc-xxl-job-demo/src/main/java/com/lj/scxxljobdemo/config/SpringContextHolder.java" />
+        <option value="$PROJECT_DIR$/cloud-modules/sc-xxl-job-demo/src/main/resources/bootstrap.yml" />
+        <option value="$PROJECT_DIR$/cloud-modules/sc-xxl-job-demo/src/main/java/com/lj/scxxljobdemo/config/XxlJobConfig.java" />
+        <option value="$PROJECT_DIR$/cloud-modules/sc-item-demo/src/main/java/com/lj/scitemdemo/common/DataSourceSwitchAspect.java" />
+        <option value="$PROJECT_DIR$/cloud-modules/sc-xxl-job-demo/src/main/java/com/lj/scxxljobdemo/common/DataSourceSwitchAspect.java" />
+        <option value="$PROJECT_DIR$/cloud-modules/sc-xxl-job-demo/src/main/java/com/lj/scxxljobdemo/jobhandler/Cs1DbJobHandler.java" />
+        <option value="$PROJECT_DIR$/cloud-modules/sc-xxl-job-demo/src/main/java/com/lj/scxxljobdemo/service/cs1db/impl/Cs1DbServiceImpl.java" />
+        <option value="$PROJECT_DIR$/cloud-modules/sc-xxl-job-demo/src/main/java/com/lj/scxxljobdemo/ScXxlJobDemoApplication.java" />
+        <option value="$PROJECT_DIR$/cloud-modules/sc-xxl-job-demo/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/cloud-modules/sc-xxl-job-demo/src/main/java/com/lj/scxxljobdemo/mapper/cs1db/Cs1DbMapper.java" />
+        <option value="$PROJECT_DIR$/cloud-modules/sc-xxl-job-demo/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/cloud-modules/sc-xxl-job-demo/src/main/java/com/lj/scxxljobdemo/config/MybatisPlusConfig.java" />
+        <option value="$PROJECT_DIR$/cloud-modules/sc-muster-item-demo/pom.xml" />
+        <option value="$PROJECT_DIR$/cloud-modules/sc-muster-item-demo/src/main/resources/bootstrap.yml" />
+        <option value="$PROJECT_DIR$/cloud-modules/sc-muster-item-demo/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/cloud-modules/sc-muster-item-demo/src/main/java/com/lj/scmusteritemdemo/cache/MybatisRedisCache.java" />
+        <option value="$PROJECT_DIR$/cloud-modules/sc-muster-item-demo/src/main/java/com/lj/scmusteritemdemo/DbContextHolder.java" />
+        <option value="$PROJECT_DIR$/cloud-modules/sc-muster-item-demo/src/main/java/com/lj/scmusteritemdemo/common/DbContextHolder.java" />
+        <option value="$PROJECT_DIR$/cloud-modules/sc-muster-item-demo/src/main/java/com/lj/scmusteritemdemo/common/DataSourceSwitchAspect.java" />
+        <option value="$PROJECT_DIR$/cloud-modules/sc-muster-item-demo/src/main/java/com/lj/scmusteritemdemo/config/MybatisPlusConfig.java" />
+        <option value="$PROJECT_DIR$/cloud-modules/sc-muster-item-demo/src/main/java/com/lj/scmusteritemdemo/entity/cs1db/OrderAmazonDetail.java" />
+        <option value="$PROJECT_DIR$/cloud-modules/sc-muster-item-demo/src/main/java/com/lj/scmusteritemdemo/mapper/cs2db/LjProductMapper.java" />
+        <option value="$PROJECT_DIR$/cloud-modules/sc-muster-item-demo/src/main/java/com/lj/scmusteritemdemo/mapper/cs1db/OrderAmazonDetailMapper.java" />
+        <option value="$PROJECT_DIR$/cloud-modules/sc-muster-item-demo/src/main/resources/mapper/cs2db/LjProductMapper.xml" />
+        <option value="$PROJECT_DIR$/cloud-modules/sc-muster-item-demo/src/main/java/com/lj/scmusteritemdemo/feign/hystrix/ScItemDemoFeignHystrix.java" />
+        <option value="$PROJECT_DIR$/cloud-modules/sc-muster-item-demo/src/main/java/com/lj/scmusteritemdemo/feign/ScItemDemoFeignClient.java" />
+        <option value="$PROJECT_DIR$/cloud-modules/sc-muster-item-demo/src/main/java/com/lj/scmusteritemdemo/service/cs1db/IOrderAmazonDetailService.java" />
+        <option value="$PROJECT_DIR$/cloud-modules/sc-muster-item-demo/src/main/java/com/lj/scmusteritemdemo/controller/OrderProductController.java" />
+        <option value="$PROJECT_DIR$/cloud-modules/sc-muster-item-demo/src/main/java/com/lj/scmusteritemdemo/ScMusterItemDemoApplication.java" />
+        <option value="$PROJECT_DIR$/cloud-modules/sc-muster-item-demo/src/main/java/com/lj/scmusteritemdemo/controller/RedisDemoController.java" />
+        <option value="$PROJECT_DIR$/cloud-modules/sc-muster-item-demo/src/main/java/com/lj/scmusteritemdemo/service/cs1db/impl/OrderAmazonDetailServiceImpl.java" />
+        <option value="$PROJECT_DIR$/cloud-modules/sc-muster-item-demo/src/main/java/com/lj/scmusteritemdemo/service/cs2db/impl/LjProductServiceImpl.java" />
+        <option value="$PROJECT_DIR$/cloud-modules/sc-muster-item-demo/src/main/resources/logback.xml" />
+        <option value="$PROJECT_DIR$/cloud-modules/sc-xxl-job-demo/src/main/resources/logback.xml" />
+        <option value="$PROJECT_DIR$/cloud-modules/sc-muster-item-demo/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/cloud-modules/sc-muster-item-demo/src/main/java/com/lj/scmusteritemdemo/config/RedisConfig.java" />
+        <option value="$PROJECT_DIR$/cloud-modules/sc-muster-item-demo/src/main/resources/mapper/cs1db/OrderAmazonDetailMapper.xml" />
+        <option value="$PROJECT_DIR$/cloud-modules/sc-elasticsearch-demo/src/main/java/com/lj/scelasticsearchdemo/common/DataSourceSwitch.java" />
+        <option value="$PROJECT_DIR$/cloud-modules/sc-elasticsearch-demo/src/main/java/com/lj/scelasticsearchdemo/common/ExtResultMapper.java" />
+        <option value="$PROJECT_DIR$/cloud-modules/sc-elasticsearch-demo/src/main/java/com/lj/scelasticsearchdemo/config/ElasticConfig.java" />
+        <option value="$PROJECT_DIR$/cloud-modules/sc-elasticsearch-demo/src/main/java/com/lj/scelasticsearchdemo/common/vo/PageMap.java" />
+        <option value="$PROJECT_DIR$/cloud-modules/sc-elasticsearch-demo/src/main/java/com/lj/scelasticsearchdemo/common/EsPageTool.java" />
+        <option value="$PROJECT_DIR$/cloud-modules/sc-elasticsearch-demo/src/main/java/com/lj/scelasticsearchdemo/entity/EsOrderDetail.java" />
+        <option value="$PROJECT_DIR$/cloud-modules/sc-elasticsearch-demo/src/main/java/com/lj/scelasticsearchdemo/service/EsDemoService.java" />
+        <option value="$PROJECT_DIR$/cloud-modules/sc-elasticsearch-demo/src/main/java/com/lj/scelasticsearchdemo/service/impl/EsDemoServiceImpl.java" />
+        <option value="$PROJECT_DIR$/cloud-modules/sc-elasticsearch-demo/src/main/java/com/lj/scelasticsearchdemo/controller/EsDemoController.java" />
+        <option value="$PROJECT_DIR$/cloud-modules/sc-elasticsearch-demo/src/main/resources/bootstrap.yml" />
+        <option value="$PROJECT_DIR$/cloud-modules/sc-elasticsearch-demo/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/cloud-modules/pom.xml" />
+        <option value="$PROJECT_DIR$/cloud-modules/sc-elasticsearch-demo/src/main/java/com/lj/scelasticsearchdemo/ScElasticsearchDemoApplication.java" />
+        <option value="$PROJECT_DIR$/cloud-modules/sc-elasticsearch-demo/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="C:/Program Files/Java/maven/apache-maven-3.6.0" />
+        <option name="userSettingsFile" value="C:\Program Files\Java\maven\apache-maven-3.6.0\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="sc-muster-item-demo" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="sc-muster-item-demo" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1936" />
+    <option name="height" value="1056" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State />
+          <State>
+            <id>Maven</id>
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>MavenModelInspection</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <hideEmptyPackages ProjectPane="false" />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="spring-cloud-project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-cloud-project" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1567478354506" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="editing.templates" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.lj.scelasticsearchdemo.controller" />
+      <recent name="com.lj.scelasticsearchdemo.entity" />
+      <recent name="com.lj.scelasticsearchdemo.service.impl" />
+      <recent name="com.lj.scelasticsearchdemo.service" />
+      <recent name="com.lj.scelasticsearchdemo.config" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\SpringCloudDemo\spring-cloud-project\cloud-modules\sc-elasticsearch-demo\src\main\java\com\lj\scelasticsearchdemo\common" />
+      <recent name="D:\SpringCloudDemo\spring-cloud-project\cloud-modules\sc-elasticsearch-demo\src\main\java\com\lj\scelasticsearchdemo" />
+      <recent name="D:\SpringCloudDemo\spring-cloud-project\cloud-modules\sc-elasticsearch-demo\src\main\resources" />
+      <recent name="D:\SpringCloudDemo\spring-cloud-project\cloud-modules\sc-muster-item-demo\src\main\java\com\lj\scmusteritemdemo\entity" />
+      <recent name="D:\SpringCloudDemo\spring-cloud-project\cloud-modules\sc-muster-item-demo\src\main\resources\mapper\cs1db" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+    <option name="contentProportion" value="0.18506494" />
+  </component>
+  <component name="RunManager" selected="Spring Boot.EurekaServerApplication">
+    <configuration name="JasyptTool" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.lj.commonsutils.JasyptTool" />
+      <module name="commons-utils" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.lj.commonsutils.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="MakeNoErrorCheck" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ConfigServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="config-server" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.lj.configserver.ConfigServerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EurekaServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="eureka-server" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.lj.eurekaserver.EurekaServerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ScElasticsearchDemoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="sc-elasticsearch-demo" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.lj.scelasticsearchdemo.ScElasticsearchDemoApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ScItemDemoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="sc-item-demo" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.lj.scitemdemo.ScItemDemoApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ScMusterItemDemoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="sc-muster-item-demo" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.lj.scmusteritemdemo.ScMusterItemDemoApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ScXxlJobDemoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="sc-xxl-job-demo" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.lj.scxxljobdemo.ScXxlJobDemoApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Spring Boot.EurekaServerApplication" />
+      <item itemvalue="Spring Boot.ConfigServerApplication" />
+      <item itemvalue="Spring Boot.ScItemDemoApplication" />
+      <item itemvalue="Spring Boot.ScXxlJobDemoApplication" />
+      <item itemvalue="Application.JasyptTool" />
+      <item itemvalue="Spring Boot.ScMusterItemDemoApplication" />
+      <item itemvalue="Spring Boot.ScElasticsearchDemoApplication" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.JasyptTool" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="acf82d7d-16e6-4079-a397-5277491fe08c" name="Default Changelist" comment="" />
+      <created>1556021150455</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1556021150455</updated>
+      <workItem from="1556021155634" duration="107000" />
+      <workItem from="1556067932055" duration="681000" />
+      <workItem from="1556068638906" duration="431000" />
+      <workItem from="1556069139700" duration="8981000" />
+      <workItem from="1556087246687" duration="1803000" />
+      <workItem from="1556096944517" duration="11806000" />
+      <workItem from="1556154445914" duration="2108000" />
+      <workItem from="1556181627073" duration="2666000" />
+      <workItem from="1556185694491" duration="155000" />
+      <workItem from="1556185862218" duration="528000" />
+      <workItem from="1556186399876" duration="128000" />
+      <workItem from="1556186575907" duration="7312000" />
+      <workItem from="1556244506721" duration="19957000" />
+      <workItem from="1556280259865" duration="2312000" />
+      <workItem from="1556413383755" duration="531000" />
+      <workItem from="1556501715043" duration="3073000" />
+      <workItem from="1557053955663" duration="1603000" />
+      <workItem from="1557228291628" duration="6727000" />
+      <workItem from="1557321089707" duration="1817000" />
+      <workItem from="1557366144962" duration="17189000" />
+      <workItem from="1557468578724" duration="70000" />
+      <workItem from="1557563191991" duration="3266000" />
+      <workItem from="1557709483543" duration="293000" />
+      <workItem from="1557795736531" duration="3600000" />
+      <workItem from="1558449183655" duration="680000" />
+      <workItem from="1560218312336" duration="9721000" />
+      <workItem from="1561773596503" duration="192000" />
+      <workItem from="1562142519511" duration="533000" />
+      <workItem from="1566186948484" duration="6157000" />
+      <workItem from="1566809647335" duration="1774000" />
+      <workItem from="1566873873625" duration="1653000" />
+      <workItem from="1566899537859" duration="22928000" />
+      <workItem from="1567129391256" duration="36191000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="176973000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.6372981" visible="true" weight="0.24200426" />
+      <window_info id="Structure" order="1" sideWeight="0.36270192" side_tool="true" weight="0.24466951" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info id="Web" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32900432" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3495671" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39935064" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Spring" order="8" weight="0.32900432" />
+      <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="10" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" weight="0.32900432" />
+      <window_info anchor="bottom" id="Java Enterprise" order="12" />
+      <window_info anchor="bottom" id="Messages" order="13" weight="0.32900432" />
+      <window_info anchor="bottom" id="Run Dashboard" order="14" weight="0.31385282" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Database" order="5" weight="0.26268658" />
+      <window_info anchor="right" id="Theme Preview" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Maven Projects" order="8" visible="true" weight="0.20095949" />
+      <window_info anchor="right" id="Bean Validation" order="9" weight="0.32889125" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/cloud-modules/sc-muster-item-demo/src/main/java/com/lj/scmusteritemdemo/service/cs1db/IOrderAmazonDetailService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="24" column="39" lean-forward="true" selection-start-line="24" selection-start-column="28" selection-end-line="24" selection-end-column="39" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-modules/sc-muster-item-demo/src/main/java/com/lj/scmusteritemdemo/feign/ScItemDemoFeignClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="12" column="33" lean-forward="true" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-modules/sc-muster-item-demo/src/main/java/com/lj/scmusteritemdemo/feign/hystrix/ScItemDemoFeignHystrix.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="13" column="40" selection-start-line="13" selection-start-column="23" selection-end-line="13" selection-end-column="40" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#431#432#0" expanded="true" />
+            <element signature="e#458#459#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-modules/sc-muster-item-demo/src/main/java/com/lj/scmusteritemdemo/ScMusterItemDemoApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="16" column="5" lean-forward="true" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-modules/sc-muster-item-demo/src/main/java/com/lj/scmusteritemdemo/config/MybatisPlusConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="28" column="37" selection-start-line="28" selection-start-column="37" selection-end-line="28" selection-end-column="37" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-modules/sc-muster-item-demo/src/main/java/com/lj/scmusteritemdemo/config/SpringContextHolder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-modules/sc-muster-item-demo/src/main/java/com/lj/scmusteritemdemo/controller/OrderProductController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-557">
+          <caret line="40" column="59" lean-forward="true" selection-start-line="40" selection-start-column="59" selection-end-line="40" selection-end-column="59" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-modules/sc-muster-item-demo/src/main/java/com/lj/scmusteritemdemo/service/cs1db/impl/OrderAmazonDetailServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="347">
+          <caret line="24" column="4" selection-start-line="24" selection-start-column="4" selection-end-line="24" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-modules/sc-muster-item-demo/src/main/java/com/lj/scmusteritemdemo/service/cs2db/impl/LjProductServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="17" column="14" lean-forward="true" selection-start-line="17" selection-start-column="14" selection-end-line="17" selection-end-column="14" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-modules/sc-muster-item-demo/src/main/resources/logback.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="55" column="28" selection-start-line="55" selection-start-column="28" selection-end-line="55" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-modules/sc-item-demo/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-modules/sc-item-demo/src/main/resources/bootstrap.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="20" column="51" lean-forward="true" selection-start-line="20" selection-start-column="51" selection-end-line="20" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-modules/sc-item-demo/src/main/resources/logback.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-286">
+          <caret line="17" column="65" lean-forward="true" selection-start-line="17" selection-start-column="65" selection-end-line="17" selection-end-column="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-modules/sc-xxl-job-demo/src/main/resources/logback.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="55" column="28" selection-start-line="55" selection-start-column="28" selection-end-line="55" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-modules/sc-xxl-job-demo/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-modules/sc-xxl-job-demo/src/main/resources/bootstrap.yml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-modules/sc-muster-item-demo/src/main/java/com/lj/scmusteritemdemo/controller/RedisDemoController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="29" column="18" lean-forward="true" selection-start-line="29" selection-start-column="18" selection-end-line="29" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-modules/sc-muster-item-demo/src/main/java/com/lj/scmusteritemdemo/config/RedisConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1349">
+          <caret line="106" column="5" selection-start-line="106" selection-start-column="5" selection-end-line="106" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-modules/sc-muster-item-demo/src/main/java/com/lj/scmusteritemdemo/cache/MybatisRedisCache.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="21" column="30" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-modules/sc-muster-item-demo/src/main/resources/mapper/cs1db/OrderAmazonDetailMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="14" column="12" selection-start-line="14" selection-start-column="12" selection-end-line="14" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-modules/sc-muster-item-demo/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="532">
+          <caret line="31" column="21" selection-start-line="20" selection-start-column="8" selection-end-line="31" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-modules/sc-elasticsearch-demo/src/main/resources/ssl/spock.key">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-modules/sc-muster-item-demo/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="6" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-modules/sc-muster-item-demo/src/main/resources/bootstrap.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="14" lean-forward="true" selection-start-line="7" selection-start-column="14" selection-end-line="7" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-modules/sc-muster-item-demo/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="15" column="32" lean-forward="true" selection-end-line="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-modules/sc-elasticsearch-demo/src/main/java/com/lj/scelasticsearchdemo/common/DynamicDataSource.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-modules/sc-elasticsearch-demo/src/main/java/com/lj/scelasticsearchdemo/config/RedisConfig.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-modules/sc-elasticsearch-demo/src/main/java/com/lj/scelasticsearchdemo/common/DbContextHolder.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-modules/sc-elasticsearch-demo/src/main/java/com/lj/scelasticsearchdemo/common/DataSourceSwitchAspect.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-modules/sc-elasticsearch-demo/src/main/java/com/lj/scelasticsearchdemo/config/SpringContextHolder.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-modules/sc-elasticsearch-demo/src/main/java/com/lj/scelasticsearchdemo/common/DBTypeEnum.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-modules/sc-elasticsearch-demo/src/main/java/com/lj/scelasticsearchdemo/common/DataSourceSwitch.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-modules/sc-elasticsearch-demo/src/main/java/com/lj/scelasticsearchdemo/config/MybatisPlusConfig.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-modules/sc-muster-item-demo/src/main/java/com/lj/scmusteritemdemo/common/DataSourceSwitch.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-modules/sc-elasticsearch-demo/src/main/java/com/lj/scelasticsearchdemo/common/EsPageTool.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-elasticsearch/3.0.4.RELEASE/spring-data-elasticsearch-3.0.4.RELEASE.jar!/org/springframework/data/elasticsearch/core/ElasticsearchTemplate.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="113" column="13" selection-start-line="113" selection-start-column="13" selection-end-line="113" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-modules/sc-elasticsearch-demo/src/main/java/com/lj/scelasticsearchdemo/config/ElasticConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="55">
+          <caret line="32" column="43" lean-forward="true" selection-start-line="32" selection-start-column="43" selection-end-line="32" selection-end-column="43" />
+          <folding>
+            <element signature="e#916#941#1" expanded="true" />
+            <element signature="e#982#1006#1" expanded="true" />
+            <element signature="e#1045#1069#1" expanded="true" />
+            <element signature="e#1108#1132#1" expanded="true" />
+            <element signature="e#1171#1194#1" expanded="true" />
+            <element signature="e#1233#1264#1" expanded="true" />
+            <element signature="e#1309#1357#1" expanded="true" />
+            <element signature="e#1444#1469#1" expanded="true" />
+            <element signature="e#1522#1547#1" expanded="true" />
+            <element signature="e#1600#1625#1" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-modules/sc-elasticsearch-demo/src/main/java/com/lj/scelasticsearchdemo/common/ExtResultMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="45" column="13" selection-start-line="45" selection-start-column="13" selection-end-line="45" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-modules/sc-elasticsearch-demo/src/main/java/com/lj/scelasticsearchdemo/entity/EsOrderDetail.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="10" column="26" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="26" />
+          <folding>
+            <element signature="e#365#366#0" expanded="true" />
+            <element signature="e#396#397#0" expanded="true" />
+            <element signature="e#444#445#0" expanded="true" />
+            <element signature="e#484#485#0" expanded="true" />
+            <element signature="e#523#524#0" expanded="true" />
+            <element signature="e#558#559#0" expanded="true" />
+            <element signature="e#614#615#0" expanded="true" />
+            <element signature="e#662#663#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-modules/sc-elasticsearch-demo/src/main/java/com/lj/scelasticsearchdemo/service/EsDemoService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="30" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-modules/sc-item-demo/src/main/java/com/lj/scitemdemo/ScItemDemoApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="20" column="8" selection-start-line="20" selection-start-column="8" selection-end-line="20" selection-end-column="68" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-modules/sc-item-demo/pom.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-modules/sc-elasticsearch-demo/src/main/java/com/lj/scelasticsearchdemo/service/impl/EsDemoServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="28" column="56" selection-start-line="28" selection-start-column="44" selection-end-line="28" selection-end-column="56" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-modules/sc-elasticsearch-demo/src/main/resources/logback.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1091" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-modules/sc-elasticsearch-demo/src/main/resources/bootstrap.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="31" selection-start-line="8" selection-start-column="31" selection-end-line="8" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-modules/sc-elasticsearch-demo/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="1" column="16" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-modules/sc-elasticsearch-demo/src/main/java/com/lj/scelasticsearchdemo/ScElasticsearchDemoApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="55" lean-forward="true" selection-start-line="9" selection-start-column="55" selection-end-line="9" selection-end-column="55" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-modules/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="410">
+          <caret line="170" column="21" selection-start-line="136" selection-start-column="8" selection-end-line="170" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-modules/sc-elasticsearch-demo/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1672">
+          <caret line="88" selection-start-line="88" selection-end-line="88" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-modules/sc-elasticsearch-demo/src/main/java/com/lj/scelasticsearchdemo/controller/EsDemoController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="358">
+          <caret line="48" column="77" selection-start-line="48" selection-start-column="77" selection-end-line="48" selection-end-column="77" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-modules/sc-elasticsearch-demo/src/main/java/com/lj/scelasticsearchdemo/common/vo/PageMap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
