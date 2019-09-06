@@ -1,0 +1,10 @@
+dataSourceKey: zyloopsDS
+destination: zyloops
+groupId: g1
+esMapping:
+  _index: zyloops_user
+  _type: _doc
+  _id: _id
+  upsert: true
+  sql: "select a.id as _id, a.name as _name, a.age as _age, b.name as _clzName, c.score as _score from t_user a left join t_clz b on a.id = b.user_id left join t_score c on a.id = c.user_id"
+  commitBatch: 3000

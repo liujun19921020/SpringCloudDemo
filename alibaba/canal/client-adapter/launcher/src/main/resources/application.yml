@@ -1,0 +1,41 @@
+server:
+  port: 8081
+spring:
+  jackson:
+    date-format: yyyy-MM-dd HH:mm:ss
+    time-zone: GMT+8
+    default-property-inclusion: non_null
+
+canal.conf:
+  mode: kafka # tcp # kafka rocketMQ
+  # canalServerHost: 127.0.0.1:11111
+  zookeeperHosts: 120.78.200.102:2181
+  mqServers: 120.78.200.102:9092 #or rocketmq
+  #  flatMessage: true
+  batchSize: 500
+  syncBatchSize: 1000
+  retries: 0
+  timeout:
+  accessKey:
+  secretKey:
+  srcDataSources:
+    zyloopsDS:
+      url: jdbc:mysql://120.78.200.102:3306/x1?useUnicode=true
+      username: root
+      password: 123456
+  canalAdapters:
+    - instance: zyloops # canal instance Name or mq topic name
+    # - topic: zyloops
+      groups:
+        - groupId: g1
+          outerAdapters:
+            - name: logger
+            - name: es
+              hosts: 192.168.71.246:9300
+              properties:
+                cluster.name: ebuy-cloud-cluster
+                searchguard.ssl.transport:
+                  pemkey_filepath: classpath:ssl/spock.key
+                  pemcert_filepath: classpath:ssl/spock.pem
+                  pemtrustedcas_filepath: classpath:ssl/root-ca.pem
+                  pemkey_password: 3QgfFoYd8Ken

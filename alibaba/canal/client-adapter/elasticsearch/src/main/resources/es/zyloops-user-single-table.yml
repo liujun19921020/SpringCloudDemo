@@ -1,0 +1,10 @@
+dataSourceKey: zyloopsDS
+destination: zyloops
+groupId: g1
+esMapping:
+  _index: zyloops_user_single_table
+  _type: _doc
+  _id: _id
+  upsert: true
+  sql: "SELECT t.id as _id, t.name as _name, t.age as _age FROM t_user t"
+  commitBatch: 3000
